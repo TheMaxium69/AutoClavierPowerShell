@@ -7,4 +7,4 @@ while ($sw.elapsed -lt $timeout){
 	[System.Windows.Forms.SendKeys]::SendWait("M")
     start-sleep -seconds 10
 }
-write-host "1FORMATIK.com SendWait"
+write-host "Temp écoulé"
